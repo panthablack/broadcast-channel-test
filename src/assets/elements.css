@@ -1,0 +1,37 @@
+button,
+.errorButton,
+.successButton {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled,
+.errorButton:disabled,
+.successButton:disabled {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: auto;
+  border-color: #dddddd33;
+  color: #888888;
+  background-color: #c0c0c0c0;
+}
+
+.errorButton {
+  border-color: #ed542244;
+  color: #fff;
+  background-color: #cd2444;
+}
+
+.infoButton {
+  border-color: #2254ed44;
+  color: #fff;
+  background-color: #4477cd;
+}
+
+.successButton {
+  border-color: #54ed9744;
+  color: #fff;
+  background-color: #24cd77;
+  /* background-color: hsla(160, 100%, 37%, 1); // This is Vue's green. */
+}
