@@ -1,6 +1,6 @@
 # broadcast-channel-test
 
-This template should help get you started developing with Vue 3 in Vite.
+This is an example Vue.js interface for using the broadcast channel.
 
 ## Recommended IDE Setup
 
