@@ -82,7 +82,7 @@ export default {
       else this.broadcastChannel.postMessage(this.message)
     },
     startBroadcasting() {
-      // create a new connection to the 'contributorPathwayPayments' channel.
+      // create a new connection to the channel.
       this.broadcastChannel = new BroadcastChannel(this.channelName)
       // create handler for message event
       this.broadcastChannel.onmessage = (e) => this.receivedMessage(e)
